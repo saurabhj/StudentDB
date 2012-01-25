@@ -1,0 +1,39 @@
+h2= "Create New Student Entry"
+div
+	form( method="post")
+		div(style="padding:5px")
+			label(for= "roll_number")
+				strong Roll Number:&nbsp;
+			input(type="text", id="roll_number", name="roll_number", style="width:50px")
+		
+		div(style="padding:5px")
+			label(for= "student_name")
+				strong Student Name:&nbsp;
+			input(type="text", id="student_name", name="student_name", style="width:200px")
+		
+		div(style="padding:10px 5px; border-bottom:1px solid black")
+			strong Marks
+		
+		div(style="padding:5px")
+			label(for= "maths")
+				strong Maths:&nbsp;
+			input(type="text", id="maths", name="maths", style="width:50px")
+		
+		div(style="padding:5px")
+			label(for= "science")
+				strong Science:&nbsp;
+			input(type="text", id="science", name="science", style="width:50px")
+		
+		div(style="padding:5px")
+			label(for= "english")
+				strong English:&nbsp;
+			input(type="text", id="english", name="english", style="width:50px")
+		
+		div(style="padding:5px")
+			label(for= "social_sciences")
+				strong Social Sciences:&nbsp;
+			input(type="text", id="social_sciences", name="social_sciences", style="width:50px")
+		<hr />
+		
+		div(style="padding:5px")
+			input(type="submit", value="Save Details")

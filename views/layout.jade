@@ -1,0 +1,15 @@
+!!!
+html
+	head
+		title= "Saurabh Student Database"
+		link(rel='stylesheet', href='/stylesheets/style.css')
+	body
+		h1= "Student Database"
+		p Welcome to Saurabh's Student Database  
+		p 
+			strong 
+				a(href="/student/new")!= "Create New Entry"
+		p
+			strong 
+				a(href="/student/list")!= "See all the data"
+	div#page!= body

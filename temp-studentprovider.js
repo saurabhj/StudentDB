@@ -1,0 +1,2 @@
+StudentProvider = function() {
+};
